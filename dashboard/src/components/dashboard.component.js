@@ -12,7 +12,7 @@ function DashboardApp(){
     })
   },[])
     return <div>
-            <h1>Dashboard Component</h1>
+            <h2>Dashboard Component</h2>
             <ul>
               {users.map(val =>
                  <li key={ val.id }>
